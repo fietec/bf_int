@@ -176,7 +176,7 @@ int main(int argc, char** argv){
 
     if (argc != 2){
         fprintf(stderr, "[ERROR] Wrong argument count!\n");
-        printf("[INFO] How to use:\n  > bf <brainf*ck-file>\n");
+        printf("[INFO] How to use:\n  > bf <brainfuck-file>\n");
         return 1;
     }
     MemByte* memory = (MemByte*) calloc(MEM_SIZE, sizeof(*memory));
