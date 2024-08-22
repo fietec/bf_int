@@ -5,12 +5,12 @@ This project is meant to be an exercise for myself. Therefore be reminded that t
 ## How to build
 To build, simply compile ```bf_int.c``` with your favourite c compiler, e.g.:
 ```
-    gcc -o bf bf_int.c
+gcc -o bf bf_int.c
 ```
 ## How to run
 The comannd line interface of this interpreter is as simple as it gets. Simply run:
 ```
-    bf <brainfuck-file>
+bf <brainfuck-file>
 ```
 
 ### Technical Details
