@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <clib/dynarray.h>
+#include "dynarray.h"
 
 /*  Brainf*ck interpreter by cdm */
 
